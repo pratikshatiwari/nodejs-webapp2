@@ -29,5 +29,5 @@ jobs:
           npm install --legacy-peer-deps
 
 
-      # - name: Run tests
-      #   run: npm test
+      - name: Run tests
+        run: npm test
