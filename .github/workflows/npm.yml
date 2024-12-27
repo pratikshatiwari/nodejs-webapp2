@@ -32,6 +32,6 @@ jobs:
 
       # Step 4: Build the application (if applicable)
       - name: Build application
-        run: npx nx run container:build
+        run: npx nx run property:build
         env:
           NODE_ENV: production
